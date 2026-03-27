@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Button } from '../atoms/Button';
 import { COMPANY_INFO } from '../../constants/company-info';
 import { ChevronRight, Shield, Clock, Award } from 'lucide-react';
+import bgHero from '../../assets/images/bg-hero.png';
 import './Hero.css';
 
 export const Hero: React.FC = () => {
@@ -10,7 +11,7 @@ export const Hero: React.FC = () => {
     <section id="inicio" className="hero">
       <div className="hero-background">
         <img
-          src={`${import.meta.env.BASE_URL}images/bg-hero.png`}
+          src={bgHero}
           alt="Hydraulic hoses"
           className="hero-image"
         />
